@@ -1,0 +1,1392 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/nicolatesla/.asdf/installs/nodejs/6.11.4/bin/node',
+1 verbose cli   '/home/nicolatesla/.asdf/installs/nodejs/6.11.4/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'typescript',
+1 verbose cli   'react',
+1 verbose cli   'react-dom' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData typescript
+8 silly fetchPackageMetaData react
+9 silly fetchPackageMetaData react-dom
+10 silly fetchNamedPackageData typescript
+11 silly mapToRegistry name typescript
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'typescript',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'typescript',
+14 silly mapToRegistry   name: 'typescript',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/typescript
+16 silly fetchNamedPackageData react
+17 silly mapToRegistry name react
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'react',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   escapedName: 'react',
+20 silly mapToRegistry   name: 'react',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/react
+22 silly fetchNamedPackageData react-dom
+23 silly mapToRegistry name react-dom
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'react-dom',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'react-dom',
+26 silly mapToRegistry   name: 'react-dom',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+28 verbose request uri https://registry.npmjs.org/react
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 10:12:28 PM
+31 verbose request id 7484713224f11e6b
+32 http request GET https://registry.npmjs.org/react
+33 verbose request uri https://registry.npmjs.org/react-dom
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 10:12:28 PM
+36 http request GET https://registry.npmjs.org/react-dom
+37 verbose request uri https://registry.npmjs.org/typescript
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 10:12:28 PM
+40 verbose etag W/"1592c6facf77e80f0e2bd5e345270993"
+41 verbose lastModified Fri, 16 Apr 2021 07:18:18 GMT
+42 http request GET https://registry.npmjs.org/typescript
+43 http 200 https://registry.npmjs.org/react-dom
+44 verbose headers { date: 'Sat, 26 Jun 2021 04:12:28 GMT',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'transfer-encoding': 'chunked',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'cf-ray': '665398f86973c7dd-DEN',
+44 verbose headers   'cache-control': 'public, max-age=300',
+44 verbose headers   etag: 'W/"93470c8474ebfb6811ee416c1c537177"',
+44 verbose headers   'last-modified': 'Fri, 25 Jun 2021 16:16:03 GMT',
+44 verbose headers   vary: 'accept-encoding, accept',
+44 verbose headers   'cf-cache-status': 'HIT',
+44 verbose headers   'cf-request-id': '0ae81def3d0000c7dda2348000000001',
+44 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+44 verbose headers   server: 'cloudflare',
+44 verbose headers   'content-encoding': 'gzip' }
+45 silly get cb [ 200,
+45 silly get   { date: 'Sat, 26 Jun 2021 04:12:28 GMT',
+45 silly get     'content-type': 'application/json',
+45 silly get     'transfer-encoding': 'chunked',
+45 silly get     connection: 'keep-alive',
+45 silly get     'cf-ray': '665398f86973c7dd-DEN',
+45 silly get     'cache-control': 'public, max-age=300',
+45 silly get     etag: 'W/"93470c8474ebfb6811ee416c1c537177"',
+45 silly get     'last-modified': 'Fri, 25 Jun 2021 16:16:03 GMT',
+45 silly get     vary: 'accept-encoding, accept',
+45 silly get     'cf-cache-status': 'HIT',
+45 silly get     'cf-request-id': '0ae81def3d0000c7dda2348000000001',
+45 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+45 silly get     server: 'cloudflare',
+45 silly get     'content-encoding': 'gzip' } ]
+46 verbose get saving react-dom to /home/nicolatesla/.npm/registry.npmjs.org/react-dom/.cache.json
+47 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+48 http 200 https://registry.npmjs.org/react
+49 verbose headers { date: 'Sat, 26 Jun 2021 04:12:29 GMT',
+49 verbose headers   'content-type': 'application/json',
+49 verbose headers   'transfer-encoding': 'chunked',
+49 verbose headers   connection: 'keep-alive',
+49 verbose headers   'cf-ray': '665398f9a87a2752-DEN',
+49 verbose headers   'cache-control': 'public, max-age=300',
+49 verbose headers   etag: 'W/"1f796c86bd305bff2cb213b9b6bcea79"',
+49 verbose headers   'last-modified': 'Fri, 25 Jun 2021 16:15:54 GMT',
+49 verbose headers   vary: 'accept-encoding, accept',
+49 verbose headers   'cf-cache-status': 'HIT',
+49 verbose headers   'cf-request-id': '0ae81df00500002752472e0000000001',
+49 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+49 verbose headers   server: 'cloudflare',
+49 verbose headers   'content-encoding': 'gzip' }
+50 silly get cb [ 200,
+50 silly get   { date: 'Sat, 26 Jun 2021 04:12:29 GMT',
+50 silly get     'content-type': 'application/json',
+50 silly get     'transfer-encoding': 'chunked',
+50 silly get     connection: 'keep-alive',
+50 silly get     'cf-ray': '665398f9a87a2752-DEN',
+50 silly get     'cache-control': 'public, max-age=300',
+50 silly get     etag: 'W/"1f796c86bd305bff2cb213b9b6bcea79"',
+50 silly get     'last-modified': 'Fri, 25 Jun 2021 16:15:54 GMT',
+50 silly get     vary: 'accept-encoding, accept',
+50 silly get     'cf-cache-status': 'HIT',
+50 silly get     'cf-request-id': '0ae81df00500002752472e0000000001',
+50 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+50 silly get     server: 'cloudflare',
+50 silly get     'content-encoding': 'gzip' } ]
+51 verbose get saving react to /home/nicolatesla/.npm/registry.npmjs.org/react/.cache.json
+52 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+53 http 200 https://registry.npmjs.org/typescript
+54 verbose headers { date: 'Sat, 26 Jun 2021 04:12:29 GMT',
+54 verbose headers   'content-type': 'application/json',
+54 verbose headers   'transfer-encoding': 'chunked',
+54 verbose headers   connection: 'keep-alive',
+54 verbose headers   'cf-ray': '665398f99afcc7b5-DEN',
+54 verbose headers   'cache-control': 'public, max-age=300',
+54 verbose headers   etag: 'W/"98322c009347e498560bb7f45e386d87"',
+54 verbose headers   'last-modified': 'Fri, 25 Jun 2021 07:15:01 GMT',
+54 verbose headers   vary: 'accept-encoding, accept',
+54 verbose headers   'cf-cache-status': 'HIT',
+54 verbose headers   'cf-request-id': '0ae81df0020000c7b54eb25000000001',
+54 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+54 verbose headers   server: 'cloudflare',
+54 verbose headers   'content-encoding': 'gzip' }
+55 silly get cb [ 200,
+55 silly get   { date: 'Sat, 26 Jun 2021 04:12:29 GMT',
+55 silly get     'content-type': 'application/json',
+55 silly get     'transfer-encoding': 'chunked',
+55 silly get     connection: 'keep-alive',
+55 silly get     'cf-ray': '665398f99afcc7b5-DEN',
+55 silly get     'cache-control': 'public, max-age=300',
+55 silly get     etag: 'W/"98322c009347e498560bb7f45e386d87"',
+55 silly get     'last-modified': 'Fri, 25 Jun 2021 07:15:01 GMT',
+55 silly get     vary: 'accept-encoding, accept',
+55 silly get     'cf-cache-status': 'HIT',
+55 silly get     'cf-request-id': '0ae81df0020000c7b54eb25000000001',
+55 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+55 silly get     server: 'cloudflare',
+55 silly get     'content-encoding': 'gzip' } ]
+56 verbose get saving typescript to /home/nicolatesla/.npm/registry.npmjs.org/typescript/.cache.json
+57 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+58 silly install normalizeTree
+59 silly loadCurrentTree Finishing
+60 silly loadIdealTree Starting
+61 silly install loadIdealTree
+62 silly cloneCurrentTree Starting
+63 silly install cloneCurrentTreeToIdealTree
+64 silly cloneCurrentTree Finishing
+65 silly loadShrinkwrap Starting
+66 silly install loadShrinkwrap
+67 silly loadShrinkwrap Finishing
+68 silly loadAllDepsIntoIdealTree Starting
+69 silly install loadAllDepsIntoIdealTree
+70 silly resolveWithNewModule react-dom@17.0.2 checking installable status
+71 silly cache add args [ 'react-dom', null ]
+72 verbose cache add spec react-dom
+73 silly resolveWithNewModule react@17.0.2 checking installable status
+74 silly cache add args [ 'react', null ]
+75 verbose cache add spec react
+76 silly resolveWithNewModule typescript@4.3.4 checking installable status
+77 silly cache add args [ 'typescript', null ]
+78 verbose cache add spec typescript
+79 silly cache add parsed spec Result {
+79 silly cache add   raw: 'react-dom',
+79 silly cache add   scope: null,
+79 silly cache add   escapedName: 'react-dom',
+79 silly cache add   name: 'react-dom',
+79 silly cache add   rawSpec: '',
+79 silly cache add   spec: 'latest',
+79 silly cache add   type: 'tag' }
+80 silly addNamed react-dom@latest
+81 verbose addNamed "latest" is being treated as a dist-tag for react-dom
+82 info addNameTag [ 'react-dom', 'latest' ]
+83 silly mapToRegistry name react-dom
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry data Result {
+86 silly mapToRegistry   raw: 'react-dom',
+86 silly mapToRegistry   scope: null,
+86 silly mapToRegistry   escapedName: 'react-dom',
+86 silly mapToRegistry   name: 'react-dom',
+86 silly mapToRegistry   rawSpec: '',
+86 silly mapToRegistry   spec: 'latest',
+86 silly mapToRegistry   type: 'tag' }
+87 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+88 verbose addNameTag registry:https://registry.npmjs.org/react-dom not in flight; fetching
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: 'react',
+89 silly cache add   scope: null,
+89 silly cache add   escapedName: 'react',
+89 silly cache add   name: 'react',
+89 silly cache add   rawSpec: '',
+89 silly cache add   spec: 'latest',
+89 silly cache add   type: 'tag' }
+90 silly addNamed react@latest
+91 verbose addNamed "latest" is being treated as a dist-tag for react
+92 info addNameTag [ 'react', 'latest' ]
+93 silly mapToRegistry name react
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry data Result {
+96 silly mapToRegistry   raw: 'react',
+96 silly mapToRegistry   scope: null,
+96 silly mapToRegistry   escapedName: 'react',
+96 silly mapToRegistry   name: 'react',
+96 silly mapToRegistry   rawSpec: '',
+96 silly mapToRegistry   spec: 'latest',
+96 silly mapToRegistry   type: 'tag' }
+97 silly mapToRegistry uri https://registry.npmjs.org/react
+98 verbose addNameTag registry:https://registry.npmjs.org/react not in flight; fetching
+99 silly cache add parsed spec Result {
+99 silly cache add   raw: 'typescript',
+99 silly cache add   scope: null,
+99 silly cache add   escapedName: 'typescript',
+99 silly cache add   name: 'typescript',
+99 silly cache add   rawSpec: '',
+99 silly cache add   spec: 'latest',
+99 silly cache add   type: 'tag' }
+100 silly addNamed typescript@latest
+101 verbose addNamed "latest" is being treated as a dist-tag for typescript
+102 info addNameTag [ 'typescript', 'latest' ]
+103 silly mapToRegistry name typescript
+104 silly mapToRegistry using default registry
+105 silly mapToRegistry registry https://registry.npmjs.org/
+106 silly mapToRegistry data Result {
+106 silly mapToRegistry   raw: 'typescript',
+106 silly mapToRegistry   scope: null,
+106 silly mapToRegistry   escapedName: 'typescript',
+106 silly mapToRegistry   name: 'typescript',
+106 silly mapToRegistry   rawSpec: '',
+106 silly mapToRegistry   spec: 'latest',
+106 silly mapToRegistry   type: 'tag' }
+107 silly mapToRegistry uri https://registry.npmjs.org/typescript
+108 verbose addNameTag registry:https://registry.npmjs.org/typescript not in flight; fetching
+109 verbose get https://registry.npmjs.org/react not expired, no request
+110 silly addNameTag next cb for react with tag latest
+111 silly addNamed react@17.0.2
+112 verbose addNamed "17.0.2" is a plain semver version for react
+113 verbose get https://registry.npmjs.org/react-dom not expired, no request
+114 silly addNameTag next cb for react-dom with tag latest
+115 silly addNamed react-dom@17.0.2
+116 verbose addNamed "17.0.2" is a plain semver version for react-dom
+117 silly mapToRegistry name react
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry data Result {
+120 silly mapToRegistry   raw: 'react',
+120 silly mapToRegistry   scope: null,
+120 silly mapToRegistry   escapedName: 'react',
+120 silly mapToRegistry   name: 'react',
+120 silly mapToRegistry   rawSpec: '',
+120 silly mapToRegistry   spec: 'latest',
+120 silly mapToRegistry   type: 'tag' }
+121 silly mapToRegistry uri https://registry.npmjs.org/react
+122 verbose addRemoteTarball https://registry.npmjs.org/react/-/react-17.0.2.tgz not in flight; adding
+123 verbose addRemoteTarball [ 'https://registry.npmjs.org/react/-/react-17.0.2.tgz',
+123 verbose addRemoteTarball   'd0b5cc516d29eb3eee383f75b62864cfb6800037' ]
+124 verbose get https://registry.npmjs.org/typescript not expired, no request
+125 silly addNameTag next cb for typescript with tag latest
+126 silly addNamed typescript@4.3.4
+127 verbose addNamed "4.3.4" is a plain semver version for typescript
+128 silly mapToRegistry name react-dom
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'react-dom',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   escapedName: 'react-dom',
+131 silly mapToRegistry   name: 'react-dom',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+133 verbose addRemoteTarball https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz not in flight; adding
+134 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz',
+134 verbose addRemoteTarball   'ecffb6845e3ad8dbfcdc498f0d0a939736502c23' ]
+135 silly mapToRegistry name typescript
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry data Result {
+138 silly mapToRegistry   raw: 'typescript',
+138 silly mapToRegistry   scope: null,
+138 silly mapToRegistry   escapedName: 'typescript',
+138 silly mapToRegistry   name: 'typescript',
+138 silly mapToRegistry   rawSpec: '',
+138 silly mapToRegistry   spec: 'latest',
+138 silly mapToRegistry   type: 'tag' }
+139 silly mapToRegistry uri https://registry.npmjs.org/typescript
+140 verbose addRemoteTarball https://registry.npmjs.org/typescript/-/typescript-4.3.4.tgz not in flight; adding
+141 verbose addRemoteTarball [ 'https://registry.npmjs.org/typescript/-/typescript-4.3.4.tgz',
+141 verbose addRemoteTarball   '3f85b986945bcf31071decdd96cf8bfa65f9dcbc' ]
+142 info retry fetch attempt 1 at 10:12:30 PM
+143 info attempt registry request try #1 at 10:12:30 PM
+144 http fetch GET https://registry.npmjs.org/typescript/-/typescript-4.3.4.tgz
+145 info retry fetch attempt 1 at 10:12:30 PM
+146 info attempt registry request try #1 at 10:12:30 PM
+147 http fetch GET https://registry.npmjs.org/react/-/react-17.0.2.tgz
+148 info retry fetch attempt 1 at 10:12:30 PM
+149 info attempt registry request try #1 at 10:12:30 PM
+150 http fetch GET https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz
+151 http fetch 200 https://registry.npmjs.org/react/-/react-17.0.2.tgz
+152 http fetch 200 https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz
+153 http fetch 200 https://registry.npmjs.org/typescript/-/typescript-4.3.4.tgz
+154 silly fetchAndShaCheck shasum d0b5cc516d29eb3eee383f75b62864cfb6800037
+155 verbose addTmpTarball /tmp/npm-427-64d4f42b/registry.npmjs.org/react/-/react-17.0.2.tgz not in flight; adding
+156 verbose addTmpTarball already have metadata; skipping unpack for react@17.0.2
+157 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+158 silly cache afterAdd react@17.0.2
+159 verbose afterAdd /home/nicolatesla/.npm/react/17.0.2/package/package.json not in flight; writing
+160 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+161 verbose afterAdd /home/nicolatesla/.npm/react/17.0.2/package/package.json written
+162 silly fetchAndShaCheck shasum ecffb6845e3ad8dbfcdc498f0d0a939736502c23
+163 verbose addTmpTarball /tmp/npm-427-64d4f42b/registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz not in flight; adding
+164 verbose addTmpTarball already have metadata; skipping unpack for react-dom@17.0.2
+165 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+166 silly cache afterAdd react-dom@17.0.2
+167 verbose afterAdd /home/nicolatesla/.npm/react-dom/17.0.2/package/package.json not in flight; writing
+168 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+169 verbose afterAdd /home/nicolatesla/.npm/react-dom/17.0.2/package/package.json written
+170 silly fetchAndShaCheck shasum 3f85b986945bcf31071decdd96cf8bfa65f9dcbc
+171 verbose addTmpTarball /tmp/npm-427-64d4f42b/registry.npmjs.org/typescript/-/typescript-4.3.4.tgz not in flight; adding
+172 verbose addTmpTarball already have metadata; skipping unpack for typescript@4.3.4
+173 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+174 silly cache afterAdd typescript@4.3.4
+175 verbose afterAdd /home/nicolatesla/.npm/typescript/4.3.4/package/package.json not in flight; writing
+176 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+177 verbose afterAdd /home/nicolatesla/.npm/typescript/4.3.4/package/package.json written
+178 silly fetchNamedPackageData loose-envify
+179 silly mapToRegistry name loose-envify
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry data Result {
+182 silly mapToRegistry   raw: 'loose-envify',
+182 silly mapToRegistry   scope: null,
+182 silly mapToRegistry   escapedName: 'loose-envify',
+182 silly mapToRegistry   name: 'loose-envify',
+182 silly mapToRegistry   rawSpec: '',
+182 silly mapToRegistry   spec: 'latest',
+182 silly mapToRegistry   type: 'tag' }
+183 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+184 silly fetchNamedPackageData object-assign
+185 silly mapToRegistry name object-assign
+186 silly mapToRegistry using default registry
+187 silly mapToRegistry registry https://registry.npmjs.org/
+188 silly mapToRegistry data Result {
+188 silly mapToRegistry   raw: 'object-assign',
+188 silly mapToRegistry   scope: null,
+188 silly mapToRegistry   escapedName: 'object-assign',
+188 silly mapToRegistry   name: 'object-assign',
+188 silly mapToRegistry   rawSpec: '',
+188 silly mapToRegistry   spec: 'latest',
+188 silly mapToRegistry   type: 'tag' }
+189 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+190 verbose request uri https://registry.npmjs.org/loose-envify
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 10:12:31 PM
+193 http request GET https://registry.npmjs.org/loose-envify
+194 verbose request uri https://registry.npmjs.org/object-assign
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 10:12:31 PM
+197 verbose etag W/"d7609bf70dc4cde24cf456be05d80a7c"
+198 verbose lastModified Sun, 27 May 2018 10:57:26 GMT
+199 http request GET https://registry.npmjs.org/object-assign
+200 http 200 https://registry.npmjs.org/loose-envify
+201 verbose headers { date: 'Sat, 26 Jun 2021 04:12:30 GMT',
+201 verbose headers   'content-type': 'application/json; charset=UTF-8',
+201 verbose headers   'transfer-encoding': 'chunked',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'cf-ray': '665399053d0c2752-DEN',
+201 verbose headers   age: '928',
+201 verbose headers   'cache-control': 'public, max-age=300',
+201 verbose headers   etag: 'W/"ff7dfaf14204cb0931ee4ffe2c39c3ce"',
+201 verbose headers   'last-modified': 'Tue, 10 Jul 2018 11:09:50 GMT',
+201 verbose headers   vary: 'accept-encoding, accept',
+201 verbose headers   'cf-cache-status': 'HIT',
+201 verbose headers   'cf-request-id': '0ae81df740000027525e91b000000001',
+201 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+201 verbose headers   server: 'cloudflare',
+201 verbose headers   'content-encoding': 'gzip' }
+202 silly get cb [ 200,
+202 silly get   { date: 'Sat, 26 Jun 2021 04:12:30 GMT',
+202 silly get     'content-type': 'application/json; charset=UTF-8',
+202 silly get     'transfer-encoding': 'chunked',
+202 silly get     connection: 'keep-alive',
+202 silly get     'cf-ray': '665399053d0c2752-DEN',
+202 silly get     age: '928',
+202 silly get     'cache-control': 'public, max-age=300',
+202 silly get     etag: 'W/"ff7dfaf14204cb0931ee4ffe2c39c3ce"',
+202 silly get     'last-modified': 'Tue, 10 Jul 2018 11:09:50 GMT',
+202 silly get     vary: 'accept-encoding, accept',
+202 silly get     'cf-cache-status': 'HIT',
+202 silly get     'cf-request-id': '0ae81df740000027525e91b000000001',
+202 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+202 silly get     server: 'cloudflare',
+202 silly get     'content-encoding': 'gzip' } ]
+203 verbose get saving loose-envify to /home/nicolatesla/.npm/registry.npmjs.org/loose-envify/.cache.json
+204 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+205 silly resolveWithNewModule loose-envify@1.4.0 checking installable status
+206 silly cache add args [ 'loose-envify@^1.1.0', null ]
+207 verbose cache add spec loose-envify@^1.1.0
+208 silly cache add parsed spec Result {
+208 silly cache add   raw: 'loose-envify@^1.1.0',
+208 silly cache add   scope: null,
+208 silly cache add   escapedName: 'loose-envify',
+208 silly cache add   name: 'loose-envify',
+208 silly cache add   rawSpec: '^1.1.0',
+208 silly cache add   spec: '>=1.1.0 <2.0.0',
+208 silly cache add   type: 'range' }
+209 silly addNamed loose-envify@>=1.1.0 <2.0.0
+210 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for loose-envify
+211 silly addNameRange { name: 'loose-envify', range: '>=1.1.0 <2.0.0', hasData: false }
+212 silly mapToRegistry name loose-envify
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry data Result {
+215 silly mapToRegistry   raw: 'loose-envify',
+215 silly mapToRegistry   scope: null,
+215 silly mapToRegistry   escapedName: 'loose-envify',
+215 silly mapToRegistry   name: 'loose-envify',
+215 silly mapToRegistry   rawSpec: '',
+215 silly mapToRegistry   spec: 'latest',
+215 silly mapToRegistry   type: 'tag' }
+216 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+217 verbose addNameRange registry:https://registry.npmjs.org/loose-envify not in flight; fetching
+218 http 304 https://registry.npmjs.org/object-assign
+219 verbose headers { date: 'Sat, 26 Jun 2021 04:12:30 GMT',
+219 verbose headers   connection: 'keep-alive',
+219 verbose headers   'cf-ray': '665399053b56c7b5-DEN',
+219 verbose headers   age: '4531',
+219 verbose headers   'cache-control': 'public, max-age=300',
+219 verbose headers   etag: '"d7609bf70dc4cde24cf456be05d80a7c"',
+219 verbose headers   'last-modified': 'Sun, 27 May 2018 10:57:26 GMT',
+219 verbose headers   vary: 'Accept-Encoding',
+219 verbose headers   'cf-cache-status': 'HIT',
+219 verbose headers   'cf-request-id': '0ae81df7400000c7b5231bf000000001',
+219 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+219 verbose headers   server: 'cloudflare' }
+220 silly get cb [ 304,
+220 silly get   { date: 'Sat, 26 Jun 2021 04:12:30 GMT',
+220 silly get     connection: 'keep-alive',
+220 silly get     'cf-ray': '665399053b56c7b5-DEN',
+220 silly get     age: '4531',
+220 silly get     'cache-control': 'public, max-age=300',
+220 silly get     etag: '"d7609bf70dc4cde24cf456be05d80a7c"',
+220 silly get     'last-modified': 'Sun, 27 May 2018 10:57:26 GMT',
+220 silly get     vary: 'Accept-Encoding',
+220 silly get     'cf-cache-status': 'HIT',
+220 silly get     'cf-request-id': '0ae81df7400000c7b5231bf000000001',
+220 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+220 silly get     server: 'cloudflare' } ]
+221 verbose etag https://registry.npmjs.org/object-assign from cache
+222 verbose get saving object-assign to /home/nicolatesla/.npm/registry.npmjs.org/object-assign/.cache.json
+223 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+224 verbose get https://registry.npmjs.org/loose-envify not expired, no request
+225 silly addNameRange number 2 { name: 'loose-envify', range: '>=1.1.0 <2.0.0', hasData: true }
+226 silly addNameRange versions [ 'loose-envify',
+226 silly addNameRange   [ '1.0.0', '1.1.0', '1.2.0', '1.3.0', '1.3.1', '1.4.0' ] ]
+227 silly addNamed loose-envify@1.4.0
+228 verbose addNamed "1.4.0" is a plain semver version for loose-envify
+229 silly mapToRegistry name loose-envify
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry data Result {
+232 silly mapToRegistry   raw: 'loose-envify',
+232 silly mapToRegistry   scope: null,
+232 silly mapToRegistry   escapedName: 'loose-envify',
+232 silly mapToRegistry   name: 'loose-envify',
+232 silly mapToRegistry   rawSpec: '',
+232 silly mapToRegistry   spec: 'latest',
+232 silly mapToRegistry   type: 'tag' }
+233 silly mapToRegistry uri https://registry.npmjs.org/loose-envify
+234 verbose addRemoteTarball https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz not in flight; adding
+235 verbose addRemoteTarball [ 'https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz',
+235 verbose addRemoteTarball   '71ee51fa7be4caec1a63839f7e682d8132d30caf' ]
+236 info retry fetch attempt 1 at 10:12:31 PM
+237 info attempt registry request try #1 at 10:12:31 PM
+238 http fetch GET https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz
+239 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+240 silly cache add args [ 'object-assign@^4.1.1', null ]
+241 verbose cache add spec object-assign@^4.1.1
+242 silly cache add parsed spec Result {
+242 silly cache add   raw: 'object-assign@^4.1.1',
+242 silly cache add   scope: null,
+242 silly cache add   escapedName: 'object-assign',
+242 silly cache add   name: 'object-assign',
+242 silly cache add   rawSpec: '^4.1.1',
+242 silly cache add   spec: '>=4.1.1 <5.0.0',
+242 silly cache add   type: 'range' }
+243 silly addNamed object-assign@>=4.1.1 <5.0.0
+244 verbose addNamed ">=4.1.1 <5.0.0" is a valid semver range for object-assign
+245 silly addNameRange { name: 'object-assign',
+245 silly addNameRange   range: '>=4.1.1 <5.0.0',
+245 silly addNameRange   hasData: false }
+246 silly mapToRegistry name object-assign
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry data Result {
+249 silly mapToRegistry   raw: 'object-assign',
+249 silly mapToRegistry   scope: null,
+249 silly mapToRegistry   escapedName: 'object-assign',
+249 silly mapToRegistry   name: 'object-assign',
+249 silly mapToRegistry   rawSpec: '',
+249 silly mapToRegistry   spec: 'latest',
+249 silly mapToRegistry   type: 'tag' }
+250 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+251 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+252 verbose get https://registry.npmjs.org/object-assign not expired, no request
+253 silly addNameRange number 2 { name: 'object-assign', range: '>=4.1.1 <5.0.0', hasData: true }
+254 silly addNameRange versions [ 'object-assign',
+254 silly addNameRange   [ '0.1.0',
+254 silly addNameRange     '0.1.1',
+254 silly addNameRange     '0.1.2',
+254 silly addNameRange     '0.2.0',
+254 silly addNameRange     '0.2.1',
+254 silly addNameRange     '0.2.2',
+254 silly addNameRange     '0.3.0',
+254 silly addNameRange     '0.3.1',
+254 silly addNameRange     '0.4.0',
+254 silly addNameRange     '1.0.0',
+254 silly addNameRange     '2.0.0',
+254 silly addNameRange     '3.0.0',
+254 silly addNameRange     '2.1.1',
+254 silly addNameRange     '4.0.0',
+254 silly addNameRange     '4.0.1',
+254 silly addNameRange     '4.1.0',
+254 silly addNameRange     '4.1.1' ] ]
+255 silly addNamed object-assign@4.1.1
+256 verbose addNamed "4.1.1" is a plain semver version for object-assign
+257 silly cache afterAdd object-assign@4.1.1
+258 verbose afterAdd /home/nicolatesla/.npm/object-assign/4.1.1/package/package.json not in flight; writing
+259 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+260 verbose afterAdd /home/nicolatesla/.npm/object-assign/4.1.1/package/package.json written
+261 http fetch 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz
+262 silly fetchAndShaCheck shasum 71ee51fa7be4caec1a63839f7e682d8132d30caf
+263 verbose addTmpTarball /tmp/npm-427-64d4f42b/registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz not in flight; adding
+264 verbose addTmpTarball already have metadata; skipping unpack for loose-envify@1.4.0
+265 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+266 silly cache afterAdd loose-envify@1.4.0
+267 verbose afterAdd /home/nicolatesla/.npm/loose-envify/1.4.0/package/package.json not in flight; writing
+268 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+269 verbose afterAdd /home/nicolatesla/.npm/loose-envify/1.4.0/package/package.json written
+270 silly fetchNamedPackageData js-tokens
+271 silly mapToRegistry name js-tokens
+272 silly mapToRegistry using default registry
+273 silly mapToRegistry registry https://registry.npmjs.org/
+274 silly mapToRegistry data Result {
+274 silly mapToRegistry   raw: 'js-tokens',
+274 silly mapToRegistry   scope: null,
+274 silly mapToRegistry   escapedName: 'js-tokens',
+274 silly mapToRegistry   name: 'js-tokens',
+274 silly mapToRegistry   rawSpec: '',
+274 silly mapToRegistry   spec: 'latest',
+274 silly mapToRegistry   type: 'tag' }
+275 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+276 verbose request uri https://registry.npmjs.org/js-tokens
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 10:12:31 PM
+279 verbose etag W/"560a7f86b01044b9ee72d25a9559c183"
+280 verbose lastModified Mon, 13 Apr 2020 16:44:08 GMT
+281 http request GET https://registry.npmjs.org/js-tokens
+282 http 200 https://registry.npmjs.org/js-tokens
+283 verbose headers { date: 'Sat, 26 Jun 2021 04:12:31 GMT',
+283 verbose headers   'content-type': 'application/json',
+283 verbose headers   'transfer-encoding': 'chunked',
+283 verbose headers   connection: 'keep-alive',
+283 verbose headers   'cf-ray': '66539905be0d2752-DEN',
+283 verbose headers   age: '935',
+283 verbose headers   'cache-control': 'public, max-age=300',
+283 verbose headers   etag: 'W/"b8301a0a1c6123003f24779d3a86d36e"',
+283 verbose headers   'last-modified': 'Sun, 25 Apr 2021 10:03:23 GMT',
+283 verbose headers   vary: 'accept-encoding, accept',
+283 verbose headers   'cf-cache-status': 'HIT',
+283 verbose headers   'cf-request-id': '0ae81df795000027525d2a4000000001',
+283 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+283 verbose headers   server: 'cloudflare',
+283 verbose headers   'content-encoding': 'gzip' }
+284 silly get cb [ 200,
+284 silly get   { date: 'Sat, 26 Jun 2021 04:12:31 GMT',
+284 silly get     'content-type': 'application/json',
+284 silly get     'transfer-encoding': 'chunked',
+284 silly get     connection: 'keep-alive',
+284 silly get     'cf-ray': '66539905be0d2752-DEN',
+284 silly get     age: '935',
+284 silly get     'cache-control': 'public, max-age=300',
+284 silly get     etag: 'W/"b8301a0a1c6123003f24779d3a86d36e"',
+284 silly get     'last-modified': 'Sun, 25 Apr 2021 10:03:23 GMT',
+284 silly get     vary: 'accept-encoding, accept',
+284 silly get     'cf-cache-status': 'HIT',
+284 silly get     'cf-request-id': '0ae81df795000027525d2a4000000001',
+284 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+284 silly get     server: 'cloudflare',
+284 silly get     'content-encoding': 'gzip' } ]
+285 verbose get saving js-tokens to /home/nicolatesla/.npm/registry.npmjs.org/js-tokens/.cache.json
+286 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+287 silly resolveWithNewModule js-tokens@4.0.0 checking installable status
+288 silly cache add args [ 'js-tokens@^3.0.0 || ^4.0.0', null ]
+289 verbose cache add spec js-tokens@^3.0.0 || ^4.0.0
+290 silly cache add parsed spec Result {
+290 silly cache add   raw: 'js-tokens@^3.0.0 || ^4.0.0',
+290 silly cache add   scope: null,
+290 silly cache add   escapedName: 'js-tokens',
+290 silly cache add   name: 'js-tokens',
+290 silly cache add   rawSpec: '^3.0.0 || ^4.0.0',
+290 silly cache add   spec: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+290 silly cache add   type: 'range' }
+291 silly addNamed js-tokens@>=3.0.0 <4.0.0||>=4.0.0 <5.0.0
+292 verbose addNamed ">=3.0.0 <4.0.0||>=4.0.0 <5.0.0" is a valid semver range for js-tokens
+293 silly addNameRange { name: 'js-tokens',
+293 silly addNameRange   range: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+293 silly addNameRange   hasData: false }
+294 silly mapToRegistry name js-tokens
+295 silly mapToRegistry using default registry
+296 silly mapToRegistry registry https://registry.npmjs.org/
+297 silly mapToRegistry data Result {
+297 silly mapToRegistry   raw: 'js-tokens',
+297 silly mapToRegistry   scope: null,
+297 silly mapToRegistry   escapedName: 'js-tokens',
+297 silly mapToRegistry   name: 'js-tokens',
+297 silly mapToRegistry   rawSpec: '',
+297 silly mapToRegistry   spec: 'latest',
+297 silly mapToRegistry   type: 'tag' }
+298 silly mapToRegistry uri https://registry.npmjs.org/js-tokens
+299 verbose addNameRange registry:https://registry.npmjs.org/js-tokens not in flight; fetching
+300 verbose get https://registry.npmjs.org/js-tokens not expired, no request
+301 silly addNameRange number 2 { name: 'js-tokens',
+301 silly addNameRange   range: '>=3.0.0 <4.0.0||>=4.0.0 <5.0.0',
+301 silly addNameRange   hasData: true }
+302 silly addNameRange versions [ 'js-tokens',
+302 silly addNameRange   [ '0.1.0',
+302 silly addNameRange     '0.2.0',
+302 silly addNameRange     '0.3.0',
+302 silly addNameRange     '0.3.1',
+302 silly addNameRange     '0.4.0',
+302 silly addNameRange     '0.4.1',
+302 silly addNameRange     '1.0.0',
+302 silly addNameRange     '1.0.1',
+302 silly addNameRange     '1.0.2',
+302 silly addNameRange     '1.0.3',
+302 silly addNameRange     '2.0.0',
+302 silly addNameRange     '3.0.0',
+302 silly addNameRange     '3.0.1',
+302 silly addNameRange     '3.0.2',
+302 silly addNameRange     '4.0.0',
+302 silly addNameRange     '5.0.0',
+302 silly addNameRange     '6.0.0',
+302 silly addNameRange     '7.0.0' ] ]
+303 silly addNamed js-tokens@4.0.0
+304 verbose addNamed "4.0.0" is a plain semver version for js-tokens
+305 silly cache afterAdd js-tokens@4.0.0
+306 verbose afterAdd /home/nicolatesla/.npm/js-tokens/4.0.0/package/package.json not in flight; writing
+307 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+308 verbose afterAdd /home/nicolatesla/.npm/js-tokens/4.0.0/package/package.json written
+309 silly fetchNamedPackageData scheduler
+310 silly mapToRegistry name scheduler
+311 silly mapToRegistry using default registry
+312 silly mapToRegistry registry https://registry.npmjs.org/
+313 silly mapToRegistry data Result {
+313 silly mapToRegistry   raw: 'scheduler',
+313 silly mapToRegistry   scope: null,
+313 silly mapToRegistry   escapedName: 'scheduler',
+313 silly mapToRegistry   name: 'scheduler',
+313 silly mapToRegistry   rawSpec: '',
+313 silly mapToRegistry   spec: 'latest',
+313 silly mapToRegistry   type: 'tag' }
+314 silly mapToRegistry uri https://registry.npmjs.org/scheduler
+315 verbose request uri https://registry.npmjs.org/scheduler
+316 verbose request no auth needed
+317 info attempt registry request try #1 at 10:12:31 PM
+318 http request GET https://registry.npmjs.org/scheduler
+319 http 200 https://registry.npmjs.org/scheduler
+320 verbose headers { date: 'Sat, 26 Jun 2021 04:12:31 GMT',
+320 verbose headers   'content-type': 'application/json',
+320 verbose headers   'transfer-encoding': 'chunked',
+320 verbose headers   connection: 'keep-alive',
+320 verbose headers   'cf-ray': '665399061c5ac7b5-DEN',
+320 verbose headers   'cache-control': 'public, max-age=300',
+320 verbose headers   etag: 'W/"080108a4d80d0a6b4ca0b6629568d8d5"',
+320 verbose headers   'last-modified': 'Fri, 25 Jun 2021 16:16:30 GMT',
+320 verbose headers   vary: 'accept-encoding, accept',
+320 verbose headers   'cf-cache-status': 'HIT',
+320 verbose headers   'cf-request-id': '0ae81df7ce0000c7b52bbbd000000001',
+320 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+320 verbose headers   server: 'cloudflare',
+320 verbose headers   'content-encoding': 'gzip' }
+321 silly get cb [ 200,
+321 silly get   { date: 'Sat, 26 Jun 2021 04:12:31 GMT',
+321 silly get     'content-type': 'application/json',
+321 silly get     'transfer-encoding': 'chunked',
+321 silly get     connection: 'keep-alive',
+321 silly get     'cf-ray': '665399061c5ac7b5-DEN',
+321 silly get     'cache-control': 'public, max-age=300',
+321 silly get     etag: 'W/"080108a4d80d0a6b4ca0b6629568d8d5"',
+321 silly get     'last-modified': 'Fri, 25 Jun 2021 16:16:30 GMT',
+321 silly get     vary: 'accept-encoding, accept',
+321 silly get     'cf-cache-status': 'HIT',
+321 silly get     'cf-request-id': '0ae81df7ce0000c7b52bbbd000000001',
+321 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+321 silly get     server: 'cloudflare',
+321 silly get     'content-encoding': 'gzip' } ]
+322 verbose get saving scheduler to /home/nicolatesla/.npm/registry.npmjs.org/scheduler/.cache.json
+323 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+324 silly resolveWithNewModule scheduler@0.20.2 checking installable status
+325 silly cache add args [ 'scheduler@^0.20.2', null ]
+326 verbose cache add spec scheduler@^0.20.2
+327 silly cache add parsed spec Result {
+327 silly cache add   raw: 'scheduler@^0.20.2',
+327 silly cache add   scope: null,
+327 silly cache add   escapedName: 'scheduler',
+327 silly cache add   name: 'scheduler',
+327 silly cache add   rawSpec: '^0.20.2',
+327 silly cache add   spec: '>=0.20.2 <0.21.0',
+327 silly cache add   type: 'range' }
+328 silly addNamed scheduler@>=0.20.2 <0.21.0
+329 verbose addNamed ">=0.20.2 <0.21.0" is a valid semver range for scheduler
+330 silly addNameRange { name: 'scheduler', range: '>=0.20.2 <0.21.0', hasData: false }
+331 silly mapToRegistry name scheduler
+332 silly mapToRegistry using default registry
+333 silly mapToRegistry registry https://registry.npmjs.org/
+334 silly mapToRegistry data Result {
+334 silly mapToRegistry   raw: 'scheduler',
+334 silly mapToRegistry   scope: null,
+334 silly mapToRegistry   escapedName: 'scheduler',
+334 silly mapToRegistry   name: 'scheduler',
+334 silly mapToRegistry   rawSpec: '',
+334 silly mapToRegistry   spec: 'latest',
+334 silly mapToRegistry   type: 'tag' }
+335 silly mapToRegistry uri https://registry.npmjs.org/scheduler
+336 verbose addNameRange registry:https://registry.npmjs.org/scheduler not in flight; fetching
+337 verbose get https://registry.npmjs.org/scheduler not expired, no request
+338 silly addNameRange number 2 { name: 'scheduler', range: '>=0.20.2 <0.21.0', hasData: true }
+339 silly addNameRange versions [ 'scheduler',
+339 silly addNameRange   [ '0.1.0',
+339 silly addNameRange     '0.1.1',
+339 silly addNameRange     '0.5.0',
+339 silly addNameRange     '0.5.1',
+339 silly addNameRange     '0.5.2',
+339 silly addNameRange     '0.5.3',
+339 silly addNameRange     '0.6.0',
+339 silly addNameRange     '0.6.1',
+339 silly addNameRange     '0.7.1',
+339 silly addNameRange     '0.8.1',
+339 silly addNameRange     '0.9.0',
+339 silly addNameRange     '0.10.0-alpha.400d197',
+339 silly addNameRange     '0.10.0-alpha.f47a958',
+339 silly addNameRange     '0.10.0-alpha.8af6728',
+339 silly addNameRange     '0.10.0',
+339 silly addNameRange     '0.11.0-alpha.0',
+339 silly addNameRange     '0.11.0',
+339 silly addNameRange     '0.0.0-b98adb6-8e066f7-PARTIAL',
+339 silly addNameRange     '0.0.0-d5e1bf0-aee1b84',
+339 silly addNameRange     '0.0.0-a8988e4-1d1a717',
+339 silly addNameRange     '0.0.0-8b3c1e4-1d1a717',
+339 silly addNameRange     '0.0.0-0c756fb-697f004',
+339 silly addNameRange     '0.11.1',
+339 silly addNameRange     '0.0.0-0c756fb-f7f79fd',
+339 silly addNameRange     '0.11.2',
+339 silly addNameRange     '0.12.0-alpha.1',
+339 silly addNameRange     '0.12.0-alpha.2',
+339 silly addNameRange     '0.0.0-ed4c4a51c',
+339 silly addNameRange     '0.0.0-88ada9819',
+339 silly addNameRange     '0.0.0-c5b7d26c7',
+339 silly addNameRange     '0.12.0-alpha.3',
+339 silly addNameRange     '0.11.3',
+339 silly addNameRange     '0.0.0-7325ebe4d',
+339 silly addNameRange     '0.0.0-4a1072194',
+339 silly addNameRange     '0.12.0',
+339 silly addNameRange     '0.0.0-f22621f88',
+339 silly addNameRange     '0.13.0-alpha.0',
+339 silly addNameRange     '0.0.0-3e15b1c69',
+339 silly addNameRange     '0.13.0-alpha.1',
+339 silly addNameRange     '0.0.0-fec00a869',
+339 silly addNameRange     '0.0.0-267ed9814',
+339 silly addNameRange     '0.0.0-d1326f466',
+339 silly addNameRange     '0.13.0',
+339 silly addNameRange     '0.0.0-11565a207',
+339 silly addNameRange     '0.13.1',
+339 silly addNameRange     '0.0.0-0e4135e8c',
+339 silly addNameRange     '0.0.0-dfabb77a9',
+339 silly addNameRange     '0.13.2',
+339 silly addNameRange     '0.0.0-b668168d4',
+339 silly addNameRange     '0.0.0-29b7b775f',
+339 silly addNameRange     '0.13.3',
+339 silly addNameRange     '0.0.0-741aa17a3',
+339 silly addNameRange     '0.13.4',
+339 silly addNameRange     '0.0.0-679402a66',
+339 silly addNameRange     '0.0.0-f9e41e3a5',
+339 silly addNameRange     '0.13.5',
+339 silly addNameRange     '0.0.0-297165f1e',
+339 silly addNameRange     '0.13.6',
+339 silly addNameRange     '0.0.0-c35e37aab',
+339 silly addNameRange     '0.14.0-alpha.0',
+339 silly addNameRange     '0.0.0-a9eff329c',
+339 silly addNameRange     '0.14.0',
+339 silly addNameRange     '0.0.0-9ebe1768a',
+339 silly addNameRange     '0.0.0-4221565e1',
+339 silly addNameRange     '0.0.0-fb28e9048',
+339 silly addNameRange     '0.0.0-6da04b5d8',
+339 silly addNameRange     '0.0.0-50b50c26f',
+339 silly addNameRange     '0.0.0-fa1e8df11',
+339 silly addNameRange     '0.0.0-9f395904c',
+339 silly addNameRange     '0.0.0-424099da6',
+339 silly addNameRange     '0.0.0-b4178af81',
+339 silly addNameRange     '0.0.0-bbd21066e',
+339 silly addNameRange     '0.0.0-db3ae32b8',
+339 silly addNameRange     '0.0.0-375616788',
+339 silly addNameRange     '0.0.0-a1dbb852c',
+339 silly addNameRange     '0.15.0-rc.0',
+339 silly addNameRange     '0.15.0',
+339 silly addNameRange     '0.0.0-8d5403877',
+339 silly addNameRange     '0.0.0-45b6443c9',
+339 silly addNameRange     '0.0.0-b4b8a349a',
+339 silly addNameRange     '0.0.0-3694a3b5e',
+339 silly addNameRange     '0.16.0',
+339 silly addNameRange     '0.0.0-d346d9208',
+339 silly addNameRange     '0.16.1',
+339 silly addNameRange     '0.0.0-4ab6305f6',
+339 silly addNameRange     '0.16.2',
+339 silly addNameRange     '0.0.0-experimental-d364d8555',
+339 silly addNameRange     '0.0.0-experimental-d7feeb25a',
+339 silly addNameRange     '0.0.0-7082d5a2d',
+339 silly addNameRange     '0.0.0-experimental-7082d5a2d',
+339 silly addNameRange     '0.0.0-1022ee0ec',
+339 silly addNameRange     '0.0.0-experimental-1022ee0ec',
+339 silly addNameRange     '0.0.0-5faf377df',
+339 silly addNameRange     '0.0.0-experimental-5faf377df',
+339 silly addNameRange     '0.17.0',
+339 silly addNameRange     '0.0.0-experimental-f6b8d31a7',
+339 silly addNameRange     '0.0.0-f6b8d31a7',
+339 silly addNameRange     '0.0.0-experimental-38dd17ab9',
+339 silly addNameRange     '0.0.0-38dd17ab9',
+339 silly addNameRange     '0.0.0-b53ea6ca0',
+339 silly addNameRange     ... 254 more items ] ]
+340 silly addNamed scheduler@0.20.2
+341 verbose addNamed "0.20.2" is a plain semver version for scheduler
+342 silly mapToRegistry name scheduler
+343 silly mapToRegistry using default registry
+344 silly mapToRegistry registry https://registry.npmjs.org/
+345 silly mapToRegistry data Result {
+345 silly mapToRegistry   raw: 'scheduler',
+345 silly mapToRegistry   scope: null,
+345 silly mapToRegistry   escapedName: 'scheduler',
+345 silly mapToRegistry   name: 'scheduler',
+345 silly mapToRegistry   rawSpec: '',
+345 silly mapToRegistry   spec: 'latest',
+345 silly mapToRegistry   type: 'tag' }
+346 silly mapToRegistry uri https://registry.npmjs.org/scheduler
+347 verbose addRemoteTarball https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz not in flight; adding
+348 verbose addRemoteTarball [ 'https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz',
+348 verbose addRemoteTarball   '4baee39436e34aa93b4874bddcbf0fe8b8b50e91' ]
+349 info retry fetch attempt 1 at 10:12:31 PM
+350 info attempt registry request try #1 at 10:12:31 PM
+351 http fetch GET https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz
+352 http fetch 200 https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz
+353 silly fetchAndShaCheck shasum 4baee39436e34aa93b4874bddcbf0fe8b8b50e91
+354 verbose addTmpTarball /tmp/npm-427-64d4f42b/registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz not in flight; adding
+355 verbose addTmpTarball already have metadata; skipping unpack for scheduler@0.20.2
+356 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+357 silly cache afterAdd scheduler@0.20.2
+358 verbose afterAdd /home/nicolatesla/.npm/scheduler/0.20.2/package/package.json not in flight; writing
+359 verbose correctMkdir /home/nicolatesla/.npm correctMkdir not in flight; initializing
+360 verbose afterAdd /home/nicolatesla/.npm/scheduler/0.20.2/package/package.json written
+361 silly loadAllDepsIntoIdealTree Finishing
+362 silly loadIdealTree Finishing
+363 silly currentTree dnd-helper@1.0.0
+364 silly idealTree dnd-helper@1.0.0
+364 silly idealTree ├── js-tokens@4.0.0
+364 silly idealTree ├── loose-envify@1.4.0
+364 silly idealTree ├── object-assign@4.1.1
+364 silly idealTree ├── react-dom@17.0.2
+364 silly idealTree ├── react@17.0.2
+364 silly idealTree ├── scheduler@0.20.2
+364 silly idealTree └── typescript@4.3.4
+365 silly generateActionsToTake Starting
+366 silly install generateActionsToTake
+367 silly generateActionsToTake Finishing
+368 silly diffTrees action count 7
+369 silly diffTrees add js-tokens@4.0.0
+370 silly diffTrees add loose-envify@1.4.0
+371 silly diffTrees add object-assign@4.1.1
+372 silly diffTrees add react@17.0.2
+373 silly diffTrees add scheduler@0.20.2
+374 silly diffTrees add react-dom@17.0.2
+375 silly diffTrees add typescript@4.3.4
+376 silly decomposeActions action count 56
+377 silly decomposeActions fetch js-tokens@4.0.0
+378 silly decomposeActions extract js-tokens@4.0.0
+379 silly decomposeActions test js-tokens@4.0.0
+380 silly decomposeActions preinstall js-tokens@4.0.0
+381 silly decomposeActions build js-tokens@4.0.0
+382 silly decomposeActions install js-tokens@4.0.0
+383 silly decomposeActions postinstall js-tokens@4.0.0
+384 silly decomposeActions finalize js-tokens@4.0.0
+385 silly decomposeActions fetch loose-envify@1.4.0
+386 silly decomposeActions extract loose-envify@1.4.0
+387 silly decomposeActions test loose-envify@1.4.0
+388 silly decomposeActions preinstall loose-envify@1.4.0
+389 silly decomposeActions build loose-envify@1.4.0
+390 silly decomposeActions install loose-envify@1.4.0
+391 silly decomposeActions postinstall loose-envify@1.4.0
+392 silly decomposeActions finalize loose-envify@1.4.0
+393 silly decomposeActions fetch object-assign@4.1.1
+394 silly decomposeActions extract object-assign@4.1.1
+395 silly decomposeActions test object-assign@4.1.1
+396 silly decomposeActions preinstall object-assign@4.1.1
+397 silly decomposeActions build object-assign@4.1.1
+398 silly decomposeActions install object-assign@4.1.1
+399 silly decomposeActions postinstall object-assign@4.1.1
+400 silly decomposeActions finalize object-assign@4.1.1
+401 silly decomposeActions fetch react@17.0.2
+402 silly decomposeActions extract react@17.0.2
+403 silly decomposeActions test react@17.0.2
+404 silly decomposeActions preinstall react@17.0.2
+405 silly decomposeActions build react@17.0.2
+406 silly decomposeActions install react@17.0.2
+407 silly decomposeActions postinstall react@17.0.2
+408 silly decomposeActions finalize react@17.0.2
+409 silly decomposeActions fetch scheduler@0.20.2
+410 silly decomposeActions extract scheduler@0.20.2
+411 silly decomposeActions test scheduler@0.20.2
+412 silly decomposeActions preinstall scheduler@0.20.2
+413 silly decomposeActions build scheduler@0.20.2
+414 silly decomposeActions install scheduler@0.20.2
+415 silly decomposeActions postinstall scheduler@0.20.2
+416 silly decomposeActions finalize scheduler@0.20.2
+417 silly decomposeActions fetch react-dom@17.0.2
+418 silly decomposeActions extract react-dom@17.0.2
+419 silly decomposeActions test react-dom@17.0.2
+420 silly decomposeActions preinstall react-dom@17.0.2
+421 silly decomposeActions build react-dom@17.0.2
+422 silly decomposeActions install react-dom@17.0.2
+423 silly decomposeActions postinstall react-dom@17.0.2
+424 silly decomposeActions finalize react-dom@17.0.2
+425 silly decomposeActions fetch typescript@4.3.4
+426 silly decomposeActions extract typescript@4.3.4
+427 silly decomposeActions test typescript@4.3.4
+428 silly decomposeActions preinstall typescript@4.3.4
+429 silly decomposeActions build typescript@4.3.4
+430 silly decomposeActions install typescript@4.3.4
+431 silly decomposeActions postinstall typescript@4.3.4
+432 silly decomposeActions finalize typescript@4.3.4
+433 silly runTopLevelLifecycles Starting
+434 silly executeActions Starting
+435 silly install executeActions
+436 silly doSerial global-install 0
+437 silly doParallel fetch 7
+438 verbose correctMkdir /home/nicolatesla/.npm/_locks correctMkdir not in flight; initializing
+439 verbose lock using /home/nicolatesla/.npm/_locks/staging-0a7d497934892f95.lock for /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging
+440 silly doParallel extract 7
+441 silly extract js-tokens@4.0.0
+442 silly extract loose-envify@1.4.0
+443 silly extract object-assign@4.1.1
+444 silly extract react@17.0.2
+445 silly extract scheduler@0.20.2
+446 silly extract react-dom@17.0.2
+447 silly extract typescript@4.3.4
+448 verbose unbuild node_modules/.staging/js-tokens-a4777a90
+449 verbose unbuild node_modules/.staging/object-assign-7d298658
+450 verbose unbuild node_modules/.staging/react-54d437d7
+451 verbose unbuild node_modules/.staging/scheduler-b978d30c
+452 verbose unbuild node_modules/.staging/react-dom-e6bed6e5
+453 verbose unbuild node_modules/.staging/loose-envify-c7930374
+454 verbose unbuild node_modules/.staging/typescript-5cb62468
+455 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/object-assign-7d298658 is being purged from base /mnt/c/users/nicol/source/repos/dnd-helper
+456 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/object-assign-7d298658
+457 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/js-tokens-a4777a90 is being purged from base /mnt/c/users/nicol/source/repos/dnd-helper
+458 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/js-tokens-a4777a90
+459 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-54d437d7 is being purged from base /mnt/c/users/nicol/source/repos/dnd-helper
+460 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-54d437d7
+461 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/scheduler-b978d30c is being purged from base /mnt/c/users/nicol/source/repos/dnd-helper
+462 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/scheduler-b978d30c
+463 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-dom-e6bed6e5 is being purged from base /mnt/c/users/nicol/source/repos/dnd-helper
+464 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-dom-e6bed6e5
+465 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/loose-envify-c7930374 is being purged from base /mnt/c/users/nicol/source/repos/dnd-helper
+466 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/loose-envify-c7930374
+467 verbose tar unpack /home/nicolatesla/.npm/react/17.0.2/package.tgz
+468 verbose tar unpacking to /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-54d437d7
+469 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-54d437d7 is being purged
+470 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-54d437d7
+471 verbose tar unpack /home/nicolatesla/.npm/js-tokens/4.0.0/package.tgz
+472 verbose tar unpacking to /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/js-tokens-a4777a90
+473 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/js-tokens-a4777a90 is being purged
+474 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/js-tokens-a4777a90
+475 verbose tar unpack /home/nicolatesla/.npm/object-assign/4.1.1/package.tgz
+476 verbose tar unpacking to /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/object-assign-7d298658
+477 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/object-assign-7d298658 is being purged
+478 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/object-assign-7d298658
+479 verbose tar unpack /home/nicolatesla/.npm/scheduler/0.20.2/package.tgz
+480 verbose tar unpacking to /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/scheduler-b978d30c
+481 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/scheduler-b978d30c is being purged
+482 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/scheduler-b978d30c
+483 verbose tar unpack /home/nicolatesla/.npm/react-dom/17.0.2/package.tgz
+484 verbose tar unpacking to /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-dom-e6bed6e5
+485 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-dom-e6bed6e5 is being purged
+486 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-dom-e6bed6e5
+487 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468 is being purged from base /mnt/c/users/nicol/source/repos/dnd-helper
+488 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468
+489 verbose tar unpack /home/nicolatesla/.npm/loose-envify/1.4.0/package.tgz
+490 verbose tar unpacking to /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/loose-envify-c7930374
+491 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/loose-envify-c7930374 is being purged
+492 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/loose-envify-c7930374
+493 silly gunzTarPerm modes [ '755', '644' ]
+494 silly gunzTarPerm modes [ '755', '644' ]
+495 silly gunzTarPerm modes [ '755', '644' ]
+496 silly gunzTarPerm modes [ '755', '644' ]
+497 silly gunzTarPerm modes [ '755', '644' ]
+498 verbose tar unpack /home/nicolatesla/.npm/typescript/4.3.4/package.tgz
+499 verbose tar unpacking to /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468
+500 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468 is being purged
+501 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468
+502 silly gunzTarPerm modes [ '755', '644' ]
+503 silly gunzTarPerm modes [ '755', '644' ]
+504 silly gunzTarPerm extractEntry package.json
+505 silly gunzTarPerm extractEntry LICENSE
+506 silly gunzTarPerm extractEntry LICENSE
+507 silly gunzTarPerm extractEntry package.json
+508 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+509 silly gunzTarPerm extractEntry package.json
+510 silly gunzTarPerm extractEntry LICENSE
+511 silly gunzTarPerm extractEntry package.json
+512 silly gunzTarPerm extractEntry index.js
+513 silly gunzTarPerm extractEntry jsx-dev-runtime.js
+514 silly gunzTarPerm extractEntry index.js
+515 silly gunzTarPerm extractEntry profiling.js
+516 silly gunzTarPerm extractEntry cli.js
+517 silly gunzTarPerm extractEntry custom.js
+518 silly gunzTarPerm extractEntry index.js
+519 silly gunzTarPerm extractEntry license
+520 silly gunzTarPerm extractEntry CHANGELOG.md
+521 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+522 silly gunzTarPerm extractEntry index.js
+523 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+524 silly gunzTarPerm extractEntry index.js
+525 silly gunzTarPerm extractEntry cjs/scheduler-tracing.development.js
+526 silly gunzTarPerm extractEntry AUTHORS.md
+527 silly gunzTarPerm extractEntry CODE_OF_CONDUCT.md
+528 silly gunzTarPerm extractEntry jsx-runtime.js
+529 silly gunzTarPerm extractEntry cjs/react-jsx-dev-runtime.development.js
+530 silly gunzTarPerm extractEntry readme.md
+531 silly gunzTarPerm extractEntry cjs/react-dom-server.browser.development.js
+532 silly gunzTarPerm extractEntry umd/react-dom-server.browser.development.js
+533 silly gunzTarPerm extractEntry index.js
+534 silly gunzTarPerm extractEntry LICENSE
+535 silly gunzTarPerm extractEntry LICENSE
+536 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+537 silly gunzTarPerm extractEntry README.md
+538 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+539 silly gunzTarPerm extractEntry umd/scheduler-tracing.development.js
+540 silly gunzTarPerm extractEntry cjs/scheduler-tracing.production.min.js
+541 silly gunzTarPerm extractEntry CopyrightNotice.txt
+542 silly gunzTarPerm extractEntry LICENSE.txt
+543 silly gunzTarPerm extractEntry cjs/react-jsx-dev-runtime.production.min.js
+544 silly gunzTarPerm extractEntry cjs/react-dom-server.browser.production.min.js
+545 silly gunzTarPerm extractEntry loose-envify.js
+546 silly gunzTarPerm extractEntry README.md
+547 silly gunzTarPerm extractEntry umd/scheduler-tracing.production.min.js
+548 silly gunzTarPerm extractEntry README.md
+549 silly gunzTarPerm extractEntry ThirdPartyNoticeText.txt
+550 silly gunzTarPerm extractEntry cjs/react-jsx-dev-runtime.profiling.min.js
+551 silly gunzTarPerm extractEntry cjs/react-jsx-runtime.development.js
+552 silly gunzTarPerm extractEntry replace.js
+553 silly gunzTarPerm extractEntry umd/react-dom-server.browser.production.min.js
+554 silly gunzTarPerm extractEntry cjs/react-dom-server.node.development.js
+555 silly gunzTarPerm extractEntry cjs/react-dom-server.node.production.min.js
+556 silly gunzTarPerm extractEntry bin/tsc
+557 silly gunzTarPerm extractEntry bin/tsserver
+558 silly gunzTarPerm extractEntry cjs/react-dom-test-utils.development.js
+559 silly gunzTarPerm extractEntry cjs/scheduler-tracing.profiling.min.js
+560 silly gunzTarPerm extractEntry umd/scheduler-tracing.profiling.min.js
+561 silly gunzTarPerm extractEntry umd/react-dom-test-utils.development.js
+562 silly gunzTarPerm extractEntry cjs/react-jsx-runtime.production.min.js
+563 silly gunzTarPerm extractEntry cjs/react-jsx-runtime.profiling.min.js
+564 silly gunzTarPerm extractEntry cjs/react.development.js
+565 silly gunzTarPerm extractEntry umd/react.development.js
+566 silly gunzTarPerm extractEntry cjs/react-dom-test-utils.production.min.js
+567 silly gunzTarPerm extractEntry cjs/react.production.min.js
+568 silly gunzTarPerm extractEntry umd/react-dom-test-utils.production.min.js
+569 silly gunzTarPerm extractEntry lib/cancellationToken.js
+570 silly gunzTarPerm extractEntry lib/cs/diagnosticMessages.generated.json
+571 silly gunzTarPerm extractEntry cjs/react-dom.development.js
+572 silly gunzTarPerm extractEntry cjs/scheduler-unstable_mock.development.js
+573 silly gunzTarPerm extractEntry umd/scheduler-unstable_mock.development.js
+574 silly gunzTarPerm extractEntry lib/de/diagnosticMessages.generated.json
+575 silly gunzTarPerm extractEntry umd/react.production.min.js
+576 silly gunzTarPerm extractEntry umd/react.profiling.min.js
+577 silly gunzTarPerm extractEntry build-info.json
+578 silly gunzTarPerm extractEntry package.json
+579 silly gunzTarPerm extractEntry README.md
+580 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/object-assign-7d298658/node_modules is being purged
+581 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/object-assign-7d298658/node_modules
+582 silly gunzTarPerm extractEntry cjs/scheduler-unstable_mock.production.min.js
+583 silly gunzTarPerm extractEntry umd/scheduler-unstable_mock.production.min.js
+584 silly gunzTarPerm extractEntry lib/es/diagnosticMessages.generated.json
+585 silly gunzTarPerm extractEntry lib/fr/diagnosticMessages.generated.json
+586 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/js-tokens-a4777a90/node_modules is being purged
+587 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/js-tokens-a4777a90/node_modules
+588 silly gunzTarPerm extractEntry cjs/scheduler-unstable_post_task.development.js
+589 silly gunzTarPerm extractEntry cjs/scheduler-unstable_post_task.production.min.js
+590 silly gunzTarPerm extractEntry lib/it/diagnosticMessages.generated.json
+591 silly gunzTarPerm extractEntry cjs/scheduler.development.js
+592 silly gunzTarPerm extractEntry umd/scheduler.development.js
+593 silly gunzTarPerm extractEntry umd/react-dom.development.js
+594 silly gunzTarPerm extractEntry cjs/scheduler.production.min.js
+595 silly gunzTarPerm extractEntry umd/scheduler.production.min.js
+596 silly gunzTarPerm extractEntry lib/ja/diagnosticMessages.generated.json
+597 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/loose-envify-c7930374/node_modules is being purged
+598 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/loose-envify-c7930374/node_modules
+599 silly gunzTarPerm extractEntry lib/ko/diagnosticMessages.generated.json
+600 silly gunzTarPerm extractEntry umd/scheduler.profiling.min.js
+601 silly gunzTarPerm extractEntry tracing-profiling.js
+602 silly gunzTarPerm extractEntry tracing.js
+603 silly gunzTarPerm extractEntry unstable_mock.js
+604 silly gunzTarPerm extractEntry lib/lib.d.ts
+605 silly gunzTarPerm extractEntry lib/lib.dom.d.ts
+606 silly gunzTarPerm extractEntry cjs/react-dom.production.min.js
+607 silly gunzTarPerm extractEntry unstable_post_task.js
+608 silly gunzTarPerm extractEntry build-info.json
+609 silly gunzTarPerm extractEntry umd/react-dom.production.min.js
+610 silly gunzTarPerm extractEntry cjs/react-dom.profiling.min.js
+611 silly gunzTarPerm extractEntry lib/lib.dom.iterable.d.ts
+612 silly gunzTarPerm extractEntry package.json
+613 silly gunzTarPerm extractEntry README.md
+614 silly gunzTarPerm extractEntry lib/lib.es2015.collection.d.ts
+615 silly gunzTarPerm extractEntry lib/lib.es2015.core.d.ts
+616 silly gunzTarPerm extractEntry umd/react-dom.profiling.min.js
+617 silly gunzTarPerm extractEntry lib/lib.es2015.d.ts
+618 silly gunzTarPerm extractEntry lib/lib.es2015.generator.d.ts
+619 silly gunzTarPerm extractEntry lib/lib.es2015.iterable.d.ts
+620 silly gunzTarPerm extractEntry server.browser.js
+621 silly gunzTarPerm extractEntry lib/lib.es2015.promise.d.ts
+622 silly gunzTarPerm extractEntry server.js
+623 silly gunzTarPerm extractEntry lib/lib.es2015.proxy.d.ts
+624 silly gunzTarPerm extractEntry lib/lib.es2015.reflect.d.ts
+625 silly gunzTarPerm extractEntry lib/lib.es2015.symbol.d.ts
+626 silly gunzTarPerm extractEntry lib/lib.es2015.symbol.wellknown.d.ts
+627 silly gunzTarPerm extractEntry lib/lib.es2016.array.include.d.ts
+628 silly gunzTarPerm extractEntry lib/lib.es2016.d.ts
+629 silly gunzTarPerm extractEntry lib/lib.es2016.full.d.ts
+630 silly gunzTarPerm extractEntry lib/lib.es2017.d.ts
+631 silly gunzTarPerm extractEntry lib/lib.es2017.full.d.ts
+632 silly gunzTarPerm extractEntry lib/lib.es2017.intl.d.ts
+633 silly gunzTarPerm extractEntry server.node.js
+634 silly gunzTarPerm extractEntry test-utils.js
+635 silly gunzTarPerm extractEntry build-info.json
+636 silly gunzTarPerm extractEntry package.json
+637 silly gunzTarPerm extractEntry README.md
+638 silly gunzTarPerm extractEntry lib/lib.es2017.object.d.ts
+639 silly gunzTarPerm extractEntry lib/lib.es2017.sharedmemory.d.ts
+640 silly gunzTarPerm extractEntry lib/lib.es2017.string.d.ts
+641 silly gunzTarPerm extractEntry lib/lib.es2017.typedarrays.d.ts
+642 silly gunzTarPerm extractEntry lib/lib.es2018.asyncgenerator.d.ts
+643 silly gunzTarPerm extractEntry lib/lib.es2018.asynciterable.d.ts
+644 silly gunzTarPerm extractEntry lib/lib.es2018.d.ts
+645 silly gunzTarPerm extractEntry lib/lib.es2018.full.d.ts
+646 silly gunzTarPerm extractEntry lib/lib.es2018.intl.d.ts
+647 silly gunzTarPerm extractEntry lib/lib.es2018.promise.d.ts
+648 silly gunzTarPerm extractEntry lib/lib.es2018.regexp.d.ts
+649 silly gunzTarPerm extractEntry lib/lib.es2019.array.d.ts
+650 silly gunzTarPerm extractEntry lib/lib.es2019.d.ts
+651 silly gunzTarPerm extractEntry lib/lib.es2019.full.d.ts
+652 silly gunzTarPerm extractEntry lib/lib.es2019.object.d.ts
+653 silly gunzTarPerm extractEntry lib/lib.es2019.string.d.ts
+654 silly gunzTarPerm extractEntry lib/lib.es2019.symbol.d.ts
+655 silly gunzTarPerm extractEntry lib/lib.es2020.bigint.d.ts
+656 silly gunzTarPerm extractEntry lib/lib.es2020.d.ts
+657 silly gunzTarPerm extractEntry lib/lib.es2020.full.d.ts
+658 silly gunzTarPerm extractEntry lib/lib.es2020.intl.d.ts
+659 silly gunzTarPerm extractEntry lib/lib.es2020.promise.d.ts
+660 silly gunzTarPerm extractEntry lib/lib.es2020.sharedmemory.d.ts
+661 silly gunzTarPerm extractEntry lib/lib.es2020.string.d.ts
+662 silly gunzTarPerm extractEntry lib/lib.es2020.symbol.wellknown.d.ts
+663 silly gunzTarPerm extractEntry lib/lib.es2021.d.ts
+664 silly gunzTarPerm extractEntry lib/lib.es2021.full.d.ts
+665 silly gunzTarPerm extractEntry lib/lib.es2021.promise.d.ts
+666 silly gunzTarPerm extractEntry lib/lib.es2021.string.d.ts
+667 silly gunzTarPerm extractEntry lib/lib.es2021.weakref.d.ts
+668 silly gunzTarPerm extractEntry lib/lib.es5.d.ts
+669 silly gunzTarPerm extractEntry lib/lib.es6.d.ts
+670 silly gunzTarPerm extractEntry lib/lib.esnext.d.ts
+671 silly gunzTarPerm extractEntry lib/lib.esnext.full.d.ts
+672 silly gunzTarPerm extractEntry lib/lib.esnext.intl.d.ts
+673 silly gunzTarPerm extractEntry lib/lib.esnext.promise.d.ts
+674 silly gunzTarPerm extractEntry lib/lib.esnext.string.d.ts
+675 silly gunzTarPerm extractEntry lib/lib.esnext.weakref.d.ts
+676 silly gunzTarPerm extractEntry lib/lib.scripthost.d.ts
+677 silly gunzTarPerm extractEntry lib/lib.webworker.d.ts
+678 silly gunzTarPerm extractEntry lib/lib.webworker.importscripts.d.ts
+679 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-54d437d7/node_modules is being purged
+680 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-54d437d7/node_modules
+681 silly gunzTarPerm extractEntry lib/lib.webworker.iterable.d.ts
+682 silly gunzTarPerm extractEntry lib/pl/diagnosticMessages.generated.json
+683 silly gunzTarPerm extractEntry lib/protocol.d.ts
+684 silly gunzTarPerm extractEntry lib/pt-br/diagnosticMessages.generated.json
+685 silly gunzTarPerm extractEntry lib/README.md
+686 silly gunzTarPerm extractEntry lib/ru/diagnosticMessages.generated.json
+687 silly gunzTarPerm extractEntry lib/tr/diagnosticMessages.generated.json
+688 silly gunzTarPerm extractEntry lib/tsc.js
+689 silly gunzTarPerm extractEntry lib/tsserver.js
+690 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/scheduler-b978d30c/node_modules is being purged
+691 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/scheduler-b978d30c/node_modules
+692 silly gunzTarPerm extractEntry lib/tsserverlibrary.d.ts
+693 silly gunzTarPerm extractEntry lib/tsserverlibrary.js
+694 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-dom-e6bed6e5/node_modules is being purged
+695 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-dom-e6bed6e5/node_modules
+696 silly gunzTarPerm extractEntry lib/typescript.d.ts
+697 silly gunzTarPerm extractEntry lib/typescript.js
+698 silly gunzTarPerm extractEntry lib/typescriptServices.d.ts
+699 silly gunzTarPerm extractEntry lib/typescriptServices.js
+700 silly gunzTarPerm extractEntry lib/typesMap.json
+701 silly gunzTarPerm extractEntry lib/typingsInstaller.js
+702 silly gunzTarPerm extractEntry lib/watchGuard.js
+703 silly gunzTarPerm extractEntry lib/zh-cn/diagnosticMessages.generated.json
+704 silly gunzTarPerm extractEntry lib/zh-tw/diagnosticMessages.generated.json
+705 silly gunzTarPerm extractEntry loc/lcl/CHS/Targets/ProjectItemsSchema.xaml.lcl
+706 silly gunzTarPerm extractEntry loc/lcl/CHS/Targets/TypeScriptCompile.xaml.lcl
+707 silly gunzTarPerm extractEntry loc/lcl/CHS/Targets/TypeScriptProjectProperties.xaml.lcl
+708 silly gunzTarPerm extractEntry loc/lcl/CHS/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+709 silly gunzTarPerm extractEntry loc/lcl/CHS/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+710 silly gunzTarPerm extractEntry loc/lcl/CHS/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+711 silly gunzTarPerm extractEntry loc/lcl/CHT/Targets/ProjectItemsSchema.xaml.lcl
+712 silly gunzTarPerm extractEntry loc/lcl/CHT/Targets/TypeScriptCompile.xaml.lcl
+713 silly gunzTarPerm extractEntry loc/lcl/CHT/Targets/TypeScriptProjectProperties.xaml.lcl
+714 silly gunzTarPerm extractEntry loc/lcl/CHT/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+715 silly gunzTarPerm extractEntry loc/lcl/CHT/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+716 silly gunzTarPerm extractEntry loc/lcl/CHT/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+717 silly gunzTarPerm extractEntry loc/lcl/CSY/Targets/ProjectItemsSchema.xaml.lcl
+718 silly gunzTarPerm extractEntry loc/lcl/CSY/Targets/TypeScriptCompile.xaml.lcl
+719 silly gunzTarPerm extractEntry loc/lcl/CSY/Targets/TypeScriptProjectProperties.xaml.lcl
+720 silly gunzTarPerm extractEntry loc/lcl/CSY/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+721 silly gunzTarPerm extractEntry loc/lcl/CSY/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+722 silly gunzTarPerm extractEntry loc/lcl/CSY/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+723 silly gunzTarPerm extractEntry loc/lcl/DEU/Targets/ProjectItemsSchema.xaml.lcl
+724 silly gunzTarPerm extractEntry loc/lcl/DEU/Targets/TypeScriptCompile.xaml.lcl
+725 silly gunzTarPerm extractEntry loc/lcl/DEU/Targets/TypeScriptProjectProperties.xaml.lcl
+726 silly gunzTarPerm extractEntry loc/lcl/DEU/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+727 silly gunzTarPerm extractEntry loc/lcl/DEU/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+728 silly gunzTarPerm extractEntry loc/lcl/DEU/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+729 silly gunzTarPerm extractEntry loc/lcl/ESN/Targets/ProjectItemsSchema.xaml.lcl
+730 silly gunzTarPerm extractEntry loc/lcl/ESN/Targets/TypeScriptCompile.xaml.lcl
+731 silly gunzTarPerm extractEntry loc/lcl/ESN/Targets/TypeScriptProjectProperties.xaml.lcl
+732 silly gunzTarPerm extractEntry loc/lcl/ESN/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+733 silly gunzTarPerm extractEntry loc/lcl/ESN/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+734 silly gunzTarPerm extractEntry loc/lcl/ESN/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+735 silly gunzTarPerm extractEntry loc/lcl/FRA/Targets/ProjectItemsSchema.xaml.lcl
+736 silly gunzTarPerm extractEntry loc/lcl/FRA/Targets/TypeScriptCompile.xaml.lcl
+737 silly gunzTarPerm extractEntry loc/lcl/FRA/Targets/TypeScriptProjectProperties.xaml.lcl
+738 silly gunzTarPerm extractEntry loc/lcl/FRA/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+739 silly gunzTarPerm extractEntry loc/lcl/FRA/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+740 silly gunzTarPerm extractEntry loc/lcl/FRA/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+741 silly gunzTarPerm extractEntry loc/lcl/ITA/Targets/ProjectItemsSchema.xaml.lcl
+742 silly gunzTarPerm extractEntry loc/lcl/ITA/Targets/TypeScriptCompile.xaml.lcl
+743 silly gunzTarPerm extractEntry loc/lcl/ITA/Targets/TypeScriptProjectProperties.xaml.lcl
+744 silly gunzTarPerm extractEntry loc/lcl/ITA/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+745 silly gunzTarPerm extractEntry loc/lcl/ITA/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+746 silly gunzTarPerm extractEntry loc/lcl/ITA/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+747 silly gunzTarPerm extractEntry loc/lcl/JPN/Targets/ProjectItemsSchema.xaml.lcl
+748 silly gunzTarPerm extractEntry loc/lcl/JPN/Targets/TypeScriptCompile.xaml.lcl
+749 silly gunzTarPerm extractEntry loc/lcl/JPN/Targets/TypeScriptProjectProperties.xaml.lcl
+750 silly gunzTarPerm extractEntry loc/lcl/JPN/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+751 silly gunzTarPerm extractEntry loc/lcl/JPN/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+752 silly gunzTarPerm extractEntry loc/lcl/JPN/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+753 silly gunzTarPerm extractEntry loc/lcl/KOR/Targets/ProjectItemsSchema.xaml.lcl
+754 silly gunzTarPerm extractEntry loc/lcl/KOR/Targets/TypeScriptCompile.xaml.lcl
+755 silly gunzTarPerm extractEntry loc/lcl/KOR/Targets/TypeScriptProjectProperties.xaml.lcl
+756 silly gunzTarPerm extractEntry loc/lcl/KOR/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+757 silly gunzTarPerm extractEntry loc/lcl/KOR/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+758 silly gunzTarPerm extractEntry loc/lcl/KOR/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+759 silly gunzTarPerm extractEntry loc/lcl/PLK/Targets/ProjectItemsSchema.xaml.lcl
+760 silly gunzTarPerm extractEntry loc/lcl/PLK/Targets/TypeScriptCompile.xaml.lcl
+761 silly gunzTarPerm extractEntry loc/lcl/PLK/Targets/TypeScriptProjectProperties.xaml.lcl
+762 silly gunzTarPerm extractEntry loc/lcl/PLK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+763 silly gunzTarPerm extractEntry loc/lcl/PLK/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+764 silly gunzTarPerm extractEntry loc/lcl/PLK/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+765 silly gunzTarPerm extractEntry loc/lcl/PTB/Targets/ProjectItemsSchema.xaml.lcl
+766 silly gunzTarPerm extractEntry loc/lcl/PTB/Targets/TypeScriptCompile.xaml.lcl
+767 silly gunzTarPerm extractEntry loc/lcl/PTB/Targets/TypeScriptProjectProperties.xaml.lcl
+768 silly gunzTarPerm extractEntry loc/lcl/PTB/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+769 silly gunzTarPerm extractEntry loc/lcl/PTB/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+770 silly gunzTarPerm extractEntry loc/lcl/PTB/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+771 silly gunzTarPerm extractEntry loc/lcl/RUS/Targets/ProjectItemsSchema.xaml.lcl
+772 silly gunzTarPerm extractEntry loc/lcl/RUS/Targets/TypeScriptCompile.xaml.lcl
+773 silly gunzTarPerm extractEntry loc/lcl/RUS/Targets/TypeScriptProjectProperties.xaml.lcl
+774 silly gunzTarPerm extractEntry loc/lcl/RUS/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+775 silly gunzTarPerm extractEntry loc/lcl/RUS/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+776 silly gunzTarPerm extractEntry loc/lcl/RUS/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+777 silly gunzTarPerm extractEntry loc/lcl/TRK/Targets/ProjectItemsSchema.xaml.lcl
+778 silly gunzTarPerm extractEntry loc/lcl/TRK/Targets/TypeScriptCompile.xaml.lcl
+779 silly gunzTarPerm extractEntry loc/lcl/TRK/Targets/TypeScriptProjectProperties.xaml.lcl
+780 silly gunzTarPerm extractEntry loc/lcl/TRK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl
+781 silly gunzTarPerm extractEntry loc/lcl/TRK/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl
+782 silly gunzTarPerm extractEntry loc/lcl/TRK/TypeScriptTasks/TypeScript.Tasks.dll.lcl
+783 silly gentlyRm /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468/node_modules is being purged
+784 verbose gentlyRm don't care about contents; nuking /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468/node_modules
+785 silly doParallel preinstall 7
+786 silly preinstall js-tokens@4.0.0 /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/js-tokens-a4777a90
+787 info lifecycle js-tokens@4.0.0~preinstall: js-tokens@4.0.0
+788 silly preinstall loose-envify@1.4.0 /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/loose-envify-c7930374
+789 info lifecycle loose-envify@1.4.0~preinstall: loose-envify@1.4.0
+790 silly preinstall object-assign@4.1.1 /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/object-assign-7d298658
+791 info lifecycle object-assign@4.1.1~preinstall: object-assign@4.1.1
+792 silly preinstall react@17.0.2 /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-54d437d7
+793 info lifecycle react@17.0.2~preinstall: react@17.0.2
+794 silly preinstall scheduler@0.20.2 /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/scheduler-b978d30c
+795 info lifecycle scheduler@0.20.2~preinstall: scheduler@0.20.2
+796 silly preinstall react-dom@17.0.2 /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/react-dom-e6bed6e5
+797 info lifecycle react-dom@17.0.2~preinstall: react-dom@17.0.2
+798 silly preinstall typescript@4.3.4 /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468
+799 info lifecycle typescript@4.3.4~preinstall: typescript@4.3.4
+800 silly lifecycle react@17.0.2~preinstall: no script for preinstall, continuing
+801 silly lifecycle loose-envify@1.4.0~preinstall: no script for preinstall, continuing
+802 silly lifecycle object-assign@4.1.1~preinstall: no script for preinstall, continuing
+803 silly lifecycle js-tokens@4.0.0~preinstall: no script for preinstall, continuing
+804 silly lifecycle scheduler@0.20.2~preinstall: no script for preinstall, continuing
+805 silly lifecycle typescript@4.3.4~preinstall: no script for preinstall, continuing
+806 silly lifecycle react-dom@17.0.2~preinstall: no script for preinstall, continuing
+807 silly doReverseSerial remove 0
+808 silly doSerial move 0
+809 silly doSerial finalize 7
+810 silly finalize /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/js-tokens
+811 silly finalize /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/loose-envify
+812 silly finalize /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/object-assign
+813 silly finalize /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/react
+814 silly finalize /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/scheduler
+815 silly finalize /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/react-dom
+816 silly finalize /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/typescript
+817 verbose unlock done using /home/nicolatesla/.npm/_locks/staging-0a7d497934892f95.lock for /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging
+818 silly rollbackFailedOptional Starting
+819 silly rollbackFailedOptional Finishing
+820 silly runTopLevelLifecycles Finishing
+821 silly install printInstalled
+822 warn dnd-helper@1.0.0 No description
+823 verbose If you need help, you may report this error at:
+823 verbose     <https://github.com/npm/npm/issues>
+824 warn dnd-helper@1.0.0 No repository field.
+825 verbose If you need help, you may report this error at:
+825 verbose     <https://github.com/npm/npm/issues>
+826 verbose stack Error: EACCES: permission denied, rename '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468' -> '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/typescript'
+826 verbose stack     at destStatted (/home/nicolatesla/.asdf/installs/nodejs/6.11.4/lib/node_modules/npm/lib/install/action/finalize.js:25:7)
+826 verbose stack     at /home/nicolatesla/.asdf/installs/nodejs/6.11.4/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:264:29
+826 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+826 verbose stack
+826 verbose stack Error: EACCES: permission denied, rename '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468' -> '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/typescript'
+826 verbose stack     at Error (native)
+827 verbose cwd /mnt/c/users/nicol/source/repos/dnd-helper
+828 error Linux 5.4.72-microsoft-standard-WSL2
+829 error argv "/home/nicolatesla/.asdf/installs/nodejs/6.11.4/bin/node" "/home/nicolatesla/.asdf/installs/nodejs/6.11.4/bin/npm" "install" "--save" "typescript" "react" "react-dom"
+830 error node v6.11.4
+831 error npm  v3.10.10
+832 error path /mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468
+833 error code EACCES
+834 error errno -13
+835 error syscall rename
+836 error Error: EACCES: permission denied, rename '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468' -> '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/typescript'
+836 error     at destStatted (/home/nicolatesla/.asdf/installs/nodejs/6.11.4/lib/node_modules/npm/lib/install/action/finalize.js:25:7)
+836 error     at /home/nicolatesla/.asdf/installs/nodejs/6.11.4/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:264:29
+836 error     at FSReqWrap.oncomplete (fs.js:123:15)
+836 error
+836 error Error: EACCES: permission denied, rename '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468' -> '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/typescript'
+836 error     at Error (native)
+836 error  { Error: EACCES: permission denied, rename '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468' -> '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/typescript'
+836 error     at destStatted (/home/nicolatesla/.asdf/installs/nodejs/6.11.4/lib/node_modules/npm/lib/install/action/finalize.js:25:7)
+836 error     at /home/nicolatesla/.asdf/installs/nodejs/6.11.4/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:264:29
+836 error     at FSReqWrap.oncomplete (fs.js:123:15)
+836 error
+836 error Error: EACCES: permission denied, rename '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/.staging/typescript-5cb62468' -> '/mnt/c/users/nicol/source/repos/dnd-helper/node_modules/typescript'
+836 error     at Error (native) parent: 'dnd-helper' }
+837 error Please try running this command again as root/Administrator.
+838 verbose exit [ -13, true ]
