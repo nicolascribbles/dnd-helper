@@ -6,7 +6,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 // of a template file that this plugin will use.
 // We will create it later.
 const htmlPlugin = new HtmlWebPackPlugin({
-  template: "./src/index.html",
+  template: "./index.html",
 });
 
 module.exports = {
